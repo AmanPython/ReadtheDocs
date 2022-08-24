@@ -22,7 +22,7 @@
 - Github + Travis ci integration
 - Deployment
 
-##Environment Setup 
+## Environment Setup 
    - Virtual Environment Setup
      - Create virtual Environment
      > virtualenv DRF
