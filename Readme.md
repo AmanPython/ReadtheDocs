@@ -1,7 +1,7 @@
 # Django Rest Framework
 ## About
 
-- [Environment Setup](##environment_setup)
+- [Environment Setup](#environment-setup)
 - Models and Custom user model
 - User Registration
 - JWT Authentication
