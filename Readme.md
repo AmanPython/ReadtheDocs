@@ -1,7 +1,7 @@
 # Django Rest Framework
 ## About
 
-- [Environment Setup](https://github.com/niklaus18/ReadtheDocs#environment-setup)
+- [Environment Setup](##environment_setup)
 - Models and Custom user model
 - User Registration
 - JWT Authentication
@@ -22,7 +22,7 @@
 - Github + Travis ci integration
 - Deployment
 
-1. Environment Setup 
+##Environment Setup 
    - Virtual Environment Setup
      - Create virtual Environment
      > virtualenv DRF
