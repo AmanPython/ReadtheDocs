@@ -19,7 +19,7 @@
 - [Protect documentation views](#protect-documentation-views)
 - [Admin and models](#admin-and-models)
 - [Test coverage and reporting](#test-coverage-and-reporting)
-- [Github + Travis ci integration](#github-+-travis-ci-integration)
+- [Github + Travis ci integration](#github--travis-ci-integration)
 - [Deployment](#deployment)
 
 ## Environment Setup 
