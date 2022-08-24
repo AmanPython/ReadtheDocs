@@ -22,3 +22,9 @@
 - Github + Travis ci integration
 - Deployment
 
+###### Environment Setup 
+1. Virtual Environment Setup
+> virtualenv DRF
+> source DRF/bin/activate
+> pip3 install -r requirements.txt
+
