@@ -1,7 +1,7 @@
 # Django Rest Framework
 ## About
 
-- [Environment Setup](https://github.com/niklaus18/ReadtheDocs/edit/main/Readme.md#environment-setup)
+- [Environment Setup](https://github.com/niklaus18/ReadtheDocs#environment-setup)
 - Models and Custom user model
 - User Registration
 - JWT Authentication
