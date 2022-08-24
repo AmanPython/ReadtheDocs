@@ -24,7 +24,10 @@
 
 ###### Environment Setup 
 1. Virtual Environment Setup
-> virtualenv DRF
-> source DRF/bin/activate
-> pip3 install -r requirements.txt
+   - Create virtual Environment
+     > virtualenv DRF
+   - Activate virtual Environment
+     > source DRF/bin/activate
+   - Install the Requirments
+     > pip3 install -r requirements.txt
 
