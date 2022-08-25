@@ -30,6 +30,8 @@
      > source DRF/bin/activate
      - Install the Requirments
      > pip3 install -r requirements.txt
+   - Settings.py
+     - 'rest_framework',
      
 ## Models and Custom user model
 ## User Registration
