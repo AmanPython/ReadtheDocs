@@ -31,9 +31,58 @@
      - Install the Requirments
      > pip3 install -r requirements.txt
    - Settings.py
+     - INSTALLED_APPS = [
      - 'rest_framework',
+     - ]
+   - Creating New Apps
+     - python manage.py startapp todos
+     - python manage.py authentication
+   - Update Setings.py
+     - INSTALLED_APPS = [
+     - 'todos',
+     - 'authentication',
+     ]
+   - Adding .gitignore file
      
 ## Models and Custom user model
+   - Creating a Tracking Model (Step - 1)
+     - Create helpers folder
+     - __init__.py
+     - models.py
+   - Writing code in models.py
+     ```
+     from django.db import models
+     class TrackingModel(models.Model):
+         created_at = models.DateTimeField(auto_now_add = True)
+         updated_at = models.DateTimeField(auto_now = True)
+         class Meta:
+            abstract = True
+            ordering = ('-created_at')
+     ```
+   - Edit Authentication Model
+     ```
+     from django.db import models
+     from helpers.models import TrackingModel
+     
+     class User(TrackingModel):
+         pass
+     ```     
+   - Updating a Tracking Model (Step - 2)
+     - Edit Authentication Model
+     ```
+     from django.contrib.auth.models import (PermissionMixin,BaseUserManager,AbstractBaseUser)
+     
+     class User(AbstractBaseUser,PermissionMixin,BaseUserManage):
+     username_validator = UnicodeUsernameValidator()          // copying from PermissionMixin > AbstractUser
+     
+     class MyUserManager(UserManager):
+        pass
+     
+     ```
+     - Update Settings.py
+       - AUTH_USER_MODEL = "authentication.User"
+  
+  
 ## User Registration
 ## JWT Authentication
 ## User Login
